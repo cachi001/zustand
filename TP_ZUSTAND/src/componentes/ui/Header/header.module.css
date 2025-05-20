@@ -1,0 +1,16 @@
+.containerHeader {
+  width: 100vw;
+  height: 8vh;
+  background-color: #000;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 16px;
+}
+
+.containerTitleHeader {
+  margin-left: 4vw;
+  color: #ffff;
+  font-size: 1rem;
+  font-weight: bold;
+}

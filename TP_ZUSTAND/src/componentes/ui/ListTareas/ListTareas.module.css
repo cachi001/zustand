@@ -1,0 +1,53 @@
+.containerPrincipalListTareas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    flex-direction: column;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.botonAgregar{
+    padding: 0.75rem 1.5rem;
+    background: white;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.botonAgregar:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(80, 82, 81, 0.4);
+}
+
+.containerTitleAndButton{
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding: 1.5rem;
+    gap: 1rem;
+    width: 70%;
+    color: white;
+}
+
+.containerList{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    background-color: #f3f4f6;;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    width: 50%;
+    min-height: 60vh;
+    max-height: 62vh;
+    overflow-y: auto;
+    border-radius: 0.4rem;
+}

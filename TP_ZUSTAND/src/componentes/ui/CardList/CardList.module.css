@@ -1,0 +1,26 @@
+.containerCard{
+    width: 100%;
+    background-color:#c4c5c1;
+    border: 0.5px solid black;
+    border-radius: 0.4rem;
+    padding: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.actionCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.actionCard button {
+    padding: 0.5rem;
+    border-radius: 5px;
+}
+
+.actionCard button:hover{
+    cursor: pointer;
+    background-color: #868486;
+}
